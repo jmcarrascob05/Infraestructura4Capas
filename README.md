@@ -100,7 +100,7 @@ La infraestructura está organizada en **cuatro capas**, interconectadas mediant
 
 ## 5. Despliegue de la infraestructura con Vagrant
 
-El despliegue se realiza mediante el fichero `Vagrantfile`:
+El despliegue se realiza mediante el fichero `- -Si quieres ver el [vagrantfile](Vagrantfile) pincha en el.`:
 
 ```bash
 vagrant up
@@ -117,26 +117,33 @@ El aprovisionamiento de todas las máquinas se realiza de forma automática medi
 - Configuración del **balanceo de carga** hacia los servidores `web1Juanma` y `web2Juanma`.
 - Activación y verificación del **registro de accesos** mediante logs.
 - -Si quieres ver el [balanceador.sh](aprov/balanceadorJuanma.sh) pincha en el.
+
 ### Servidores Web
 
 - Instalación del servidor **Nginx**.
 - Configuración del uso de **PHP-FPM**.
 - Montaje del **sistema de archivos compartido NFS** proporcionado por el servidor NFS.
+- -Si quieres ver el [web1.sh](aprov/web1Juanma.sh) pincha en el.
+- -Si quieres ver el [web2.sh](aprov/web2Juanma.sh) pincha en el.
 
 ### Servidor NFS y PHP-FPM
 
 - Exportación del **directorio compartido** mediante NFS.
 - Configuración del servicio **PHP-FPM**, accesible desde los servidores web.
+- -Si quieres ver el [NFS.sh](aprov/NFSJuanma.sh) pincha en el.
 
 ### HAProxy
 
 - Configuración del **balanceo de conexiones** hacia los servidores MariaDB.
 - Implementación de **alta disponibilidad** para el acceso a la base de datos.
+- -Si quieres ver el [haproxy.sh](aprov/haproxyJuanma.sh) pincha en el.
 
-### MariaDB Galera
+### MariaDB Servers
 
 - Implementación de un **clúster MariaDB Galera de dos nodos**.
 - Configuración de la **replicación síncrona** de los datos entre ambos nodos.
+- -Si quieres ver el [db1.sh](aprov/db1Juanma.sh) pincha en el.
+- -Si quieres ver el [db2.sh](aprov/db2Juanma.sh) pincha en el.
 
 ## 7. Configuración de la aplicación web
 
