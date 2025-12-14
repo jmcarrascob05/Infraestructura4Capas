@@ -116,7 +116,7 @@ El aprovisionamiento de todas las máquinas se realiza de forma automática medi
 - Instalación y configuración del servidor **Nginx**.
 - Configuración del **balanceo de carga** hacia los servidores `web1Juanma` y `web2Juanma`.
 - Activación y verificación del **registro de accesos** mediante logs.
-
+- -Si quieres ver el [balanceador.sh](aprov/balanceadorJuanma.sh) pincha en el.
 ### Servidores Web
 
 - Instalación del servidor **Nginx**.
