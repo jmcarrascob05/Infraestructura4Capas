@@ -2,8 +2,9 @@
 
 **Autor:** Juan Manuel Carrasco Benítez  
 **Ciclo:** ASIR  
-**Tecnologías:** Vagrant, VirtualBox, Debian 12, Nginx, PHP-FPM, NFS, HAProxy, MariaDB Galera
-
+**Tecnologías:** Vagrant, VirtualBox, Debian 12, Nginx, PHP-FPM, NFS, HAProxy, MariaDB Galera   
+**La aplicación es accesible desde**
+[http://localhost:8080](http://localhost:8080)
 ## Índice
 
 1. Introducción  
@@ -15,7 +16,7 @@
 7. Configuración de la aplicación web   
 8. Vídeo de evidencia (Screencast)  
 9. Errores frecuentes y resolución  
-10. Conclusiones  
+10. Conclusión 
 
 ## 1. Introducción
 
