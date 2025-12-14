@@ -100,7 +100,7 @@ La infraestructura está organizada en **cuatro capas**, interconectadas mediant
 
 ## 5. Despliegue de la infraestructura con Vagrant
 
-El despliegue se realiza mediante el fichero `- -Si quieres ver el [vagrantfile](Vagrantfile) pincha en el.`:
+El despliegue se realiza mediante el fichero [vagrantfile](Vagrantfile) pincha en el:
 
 ```bash
 vagrant up
